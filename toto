@@ -1,0 +1,42 @@
+#!/bin/bash
+
+#cat tel_bis.dat| tr -s ' ' | cut -d ";" -f 1 | cut -d " " -f 2
+
+#LISTE="un deux trois quatre"
+
+#for i in $LISTE
+#do
+#    echo $i
+#done
+
+#echo "calcul du nombre de fichiers .dat"
+#NB=`ls *.dat | wc -l`
+#echo "$NB fichiers ont pour extension .dat"
+
+#LISTE=`ls`
+
+#for i in $LISTE
+#do
+#    ls -lh $i | tr -s ' ' |cut -d " " -f 1,7,11
+#done
+
+#read nom
+
+#grep $nom tel_bis.dat | sort | uniq
+
+#grep $1 tel_bis.dat | sort | uniq
+
+
+#TMP="toto.$$" 
+
+#grep -v "Yon" tel_bis.dat > $TMP
+#echo -e "\nNicolas Loxol" >> $TMP 
+#cat $TMP > tel_bis.dat
+#rm $TMP
+
+killall firefox
+
+
+
+
+
